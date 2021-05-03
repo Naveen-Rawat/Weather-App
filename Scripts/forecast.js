@@ -3,7 +3,7 @@
 // I am removing my key for obvious reasons. To generate a key, just make an account on
 // https://developer.accuweather.com/ 
 // Follow the steps on the website thereafter.
-let key = "Your_Key_Here";
+let key = "Your API key here";
 
 const getCity = async (city) => {
 	const base = "http://dataservice.accuweather.com/locations/v1/cities/search";
